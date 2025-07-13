@@ -7,9 +7,10 @@
     text-decoration: none;
     font-family: "Jost", sans-serif;
     color: #fff;
-    scrollbar-width: 0;
 }
-
+*::-webkit-scrollbar{
+    display: none;
+}
 
 img {
     max-width: 100%;
@@ -166,7 +167,7 @@ nav {
 }
 
 .hug {
-    overflow-y: scroll;
+    overflow:hidden;
     transform: translate(-300%, 0);
     transition: 1.5s ease-in-out;
     position: absolute;
