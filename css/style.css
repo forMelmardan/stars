@@ -7,7 +7,9 @@
     text-decoration: none;
     font-family: "Jost", sans-serif;
     color: #fff;
+    scrollbar-width: 0;
 }
+
 
 img {
     max-width: 100%;
@@ -131,6 +133,7 @@ nav {
     transform: scale(0);
     height: 90%;
     object-fit: cover;
+    margin: auto;
     max-width: 90%;
     max-height: 90%;
 }
@@ -145,7 +148,6 @@ nav {
 
 
 .letter {
-    max-width: 900px;
     overflow-y: scroll;
     transform: translate(0, 300%);
     transition: 1.5s ease-in-out;
@@ -158,9 +160,12 @@ nav {
     font-size: 30px;
 }
 
+.letter__wrapper {
+    margin: auto;
+    max-width: 900px;
+}
 
 .hug {
-    max-width: 900px;
     overflow-y: scroll;
     transform: translate(-300%, 0);
     transition: 1.5s ease-in-out;
@@ -176,13 +181,19 @@ nav {
     justify-content: center;
 }
 
-.hug-circle{
+.hug__wrapper {
+    max-width: 900px;
+    z-index: 999;
+    margin: auto;
+}
+
+.hug-circle {
     transition: 1s;
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    background: linear-gradient(135deg,rgba(247, 211, 131, 1) 0%, rgba(245, 134, 78, 1) 100%);
+    background: linear-gradient(135deg, rgba(247, 211, 131, 1) 0%, rgba(245, 134, 78, 1) 100%);
     width: 80px;
     aspect-ratio: 1;
     border-radius: 100%;
@@ -190,7 +201,7 @@ nav {
     z-index: 99;
 }
 
-.hug-outer-circle{
+.hug-outer-circle {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -199,22 +210,25 @@ nav {
     aspect-ratio: 1;
     border-radius: 100%;
     border: 2px solid white;
-    animation: clickme 2s cubic-bezier( 0.2, 0.7, 0.25, 0.99 ) 0s infinite forwards;
+    animation: clickme 2s cubic-bezier(0.2, 0.7, 0.25, 0.99) 0s infinite forwards;
 }
 
 @keyframes clickme {
-    0%{
+    0% {
         scale: 1;
         opacity: 1;
     }
-    100%{
+
+    100% {
         scale: 2;
         opacity: 0;
     }
 }
 
-.hug-text{
+.hug-text {
+    text-align: center;
     pointer-events: none;
+    position: relative;
     z-index: 999;
     transition: .3s;
     opacity: 0;
