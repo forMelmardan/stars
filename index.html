@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моей звезде</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/layout/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <canvas id="starCanvas"></canvas>
+    <main>
+        <h1 class="heading">Моей звезде</h1>
+        <nav>
+            <div id="letter" class="nav__item"><img src="img/layout/letter.svg" alt="">Буквы</div>
+            <div id="gallery" class="nav__item"><img src="img/layout/gallery.svg" alt="">Галерея</div>
+            <div id="hug" class="nav__item"><img src="img/layout/tiger.svg" alt="">Мур</div>
+        </nav>
+    </main>
+
+    <div class="gallery">
+        <img src="img/layout/back.svg" alt="" class="back" id="gallery-back">
+        <div class="gallery__wrapper">
+            <img src="img/gallery/photo_2025-01-14_20-41-09.jpg" alt="">
+            <img src="img/gallery/photo_2025-01-14_20-41-10.JPEG" alt="">
+            <img src="img/gallery/photo_2025-01-14_20-41-11.JPEG" alt="">
+            <img src="img/gallery/photo_2025-02-01_17-32-19.jpg" alt="">
+            <img src="img/gallery/photo_2025-02-12_22-03-13.jpg" alt="">
+            <img src="img/gallery/photo_2025-02-14_22-01-45.jpg" alt="">
+            <img src="img/gallery/photo_2025-02-14_22-01-46.jpg" alt="">
+            <img src="img/gallery/photo_2025-02-14_22-01-47.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-09_21-22-44.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-35.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-36.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-36.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-37.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-38.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-39.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-40.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-41.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-42.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-43.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-16-44.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-14_22-30-34.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-03.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-04.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-05.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-06.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-07.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-08.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-09.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-19_21-58-10.JPEG" alt="">
+            <img src="img/gallery/photo_2025-03-19_22-04-12.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-19_22-04-14.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-29_20-51-59.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-29_22-12-18.jpg" alt="">
+            <img src="img/gallery/photo_2025-03-29_22-12-20.jpg" alt="">
+            <img src="img/gallery/photo_2025-04-15_22-18-12.jpg" alt="">
+            <img src="img/gallery/photo_2025-04-29_22-36-31.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-05_20-40-52.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-05_20-40-57.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-05_21-50-11.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-15_18-30-06.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-17_17-40-03.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-17_17-45-04.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-19_21-14-12.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-19_21-14-18.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-45-02.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-21.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-22.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-23.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-24.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-25.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-26.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-27.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-28.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-29.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-20_21-59-30.JPEG" alt="">
+            <img src="img/gallery/photo_2025-05-29_20-06-37.jpg" alt="">
+            <img src="img/gallery/photo_2025-05-29_20-06-38.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-04_21-29-43.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-04_21-29-44.JPEG" alt="">
+            <img src="img/gallery/photo_2025-06-16_21-46-45.JPEG" alt="">
+            <img src="img/gallery/photo_2025-06-16_21-46-46.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-16_21-46-47.JPEG" alt="">
+            <img src="img/gallery/photo_2025-06-16_21-46-47.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-22_19-40-52.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-22_19-40-53.JPEG" alt="">
+            <img src="img/gallery/photo_2025-06-22_19-40-54.JPEG" alt="">
+            <img src="img/gallery/photo_2025-06-22_20-46-40.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-22_20-46-41.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-22_20-52-06.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-27_13-57-32.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-27_13-58-29.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-27_22-36-09.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-27_22-36-11.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-27_22-36-17.jpg" alt="">
+            <img src="img/gallery/photo_2025-06-27_22-36-18.JPEG" alt="">
+            <img src="img/gallery/photo_2025-06-28_15-55-20.jpg" alt="">
+            <img src="img/gallery/photo_2025-07-06_15-30-03.JPEG" alt="">
+            <img src="img/gallery/photo_2025-07-12_15-30-03.JPEG" alt="">
+            <img src="img/gallery/photo_2025-07-12_15-30-03.jpg" alt="">
+            <img src="img/gallery/photo_2025-07-12_15-30-04.jpg" alt="">
+            <img src="img/gallery/photo_2025-07-12_15-30-07.jpg" alt="">
+            <img src="img/gallery/photo_2025-07-12_17-10-43.jpg" alt="">
+        </div>
+    </div>
+    <div class="overlay">
+        <img src="img/layout/close.svg" alt="" id="overlay-close">
+        <img src="" alt="" class="overlay-img">
+    </div>
+
+    <div class="letter">
+        <img src="img/layout/back.svg" alt="" class="back" id="letter-back">
+        Полгода. 6 месяцев. 26 недель. 182 дня. 4368 часов. 262080 минут. В конце концов 15724800 секунд. <br><br>
+        Именно столько мы вместе от момента, как решили что не наебали бабку! <br>
+        Я люблю тебя бесконечно сильно, моя дорогая звёздочка, мне нравятся наши маленькие традиции, как, например, писать длинные пожелания на ночь или мур-мяу, и я хотел бы, чтобы таких традиций становилось все больше со временем. С годами! <br><br>
+        Мне нравится каждый день прожитый с тобой вместе, никто и никогда не давал мне почувствовать себя настолько любимым, насколько я чувствую это с тобой. Спасибо тебе за каждую секунду, которых будет больше и больше! <br><br>
+        На самом деле очень долго думал, что сказать в этот момент и долго ждал этого момента, но когда пишу это, я думаю, что лучше сказать самые простые, и все же самые правильные штуки: <br>
+        Я очень люблю тебя, ты очень мне дорога и я хочу прожить с тобой всю жизнь. Вместе. Бок о бок. Когда-нибудь и вместе с тигрятами.
+    </div>
+    
+    <div class="hug">
+        <img src="img/layout/back.svg" alt="" class="back" id="hug-back">
+        <div class="hug-outer-circle"></div>
+        <div class="hug-circle"></div>
+        <div class="hug-text">
+            Хоть мы сейчас и далеко друг от друга, но я надеюсь, что эта штука смогла поднять тебе настроение! Посылаю цифровые электронные объятия!
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
