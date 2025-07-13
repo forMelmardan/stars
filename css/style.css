@@ -145,6 +145,7 @@ nav {
 
 
 .letter {
+    max-width: 900px;
     overflow-y: scroll;
     transform: translate(0, 300%);
     transition: 1.5s ease-in-out;
@@ -159,6 +160,7 @@ nav {
 
 
 .hug {
+    max-width: 900px;
     overflow-y: scroll;
     transform: translate(-300%, 0);
     transition: 1.5s ease-in-out;
